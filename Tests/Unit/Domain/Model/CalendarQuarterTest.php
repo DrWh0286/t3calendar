@@ -30,7 +30,7 @@ class CalendarQuarterTest extends UnitTestCase
      */
     protected $subject;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getAccessibleMock(
             CalendarQuarter::class,

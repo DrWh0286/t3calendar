@@ -73,7 +73,7 @@ class CalendarFactoryTest extends UnitTestCase
      */
     protected $objectManager;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getMockBuilder(CalendarFactory::class)
             ->setMethods(['dummy'])

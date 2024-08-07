@@ -56,7 +56,7 @@ class CalendarMonthFactoryTest extends UnitTestCase
     /**
      * set up subject
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getAccessibleMock(
             CalendarMonthFactory::class, ['dummy', 'addWeeks']

@@ -36,7 +36,7 @@ class CalendarViewHelperTest extends UnitTestCase
     /**
      * set up
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getAccessibleMock(
             CalendarViewHelper::class, ['hasArgument', 'initiateSubRequest', 'registerArgument']

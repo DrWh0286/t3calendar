@@ -31,7 +31,7 @@ class CalendarMonthTest extends UnitTestCase
      */
     protected $fixture;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->fixture = $this->getAccessibleMock(
             \DWenzel\T3calendar\Domain\Model\CalendarMonth::class,

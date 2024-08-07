@@ -33,7 +33,7 @@ class CalendarItemStorageTest extends UnitTestCase
     /**
      * set up subject
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getMockBuilder(CalendarItemStorage::class)
             ->setMethods(['dummy'])->getMock();

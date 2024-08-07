@@ -20,7 +20,7 @@ class TemplateUtilityTest extends UnitTestCase
     /**
      * set up the subject
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getMockBuilder(TemplateUtility::class)
             ->setMethods(['dummy'])->getMock();

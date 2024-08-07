@@ -30,7 +30,7 @@ class CalendarYearTest extends UnitTestCase
      */
     protected $subject;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getAccessibleMock(
             CalendarYear::class,

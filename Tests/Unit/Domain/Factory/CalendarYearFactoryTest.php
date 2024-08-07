@@ -49,7 +49,7 @@ class CalendarYearFactoryTest extends UnitTestCase
     /**
      * set up subject
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getMockBuilder(CalendarYearFactory::class)
             ->setMethods(['dummy'])->getMock();

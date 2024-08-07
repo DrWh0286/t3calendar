@@ -39,7 +39,7 @@ class CalendarQuarterFactoryTraitTest extends UnitTestCase
     /**
      * set up subject
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->subject = $this->getMockForTrait(
             CalendarQuarterFactoryTrait::class);
