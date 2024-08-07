@@ -13,7 +13,8 @@
     "typo3/cms-core": "^10.4 || ^11.5"
   },
   "require-dev": {
-    "nimut/testing-framework": "^5.2 || ^6.0"
+    "nimut/testing-framework": "^5.2 || ^6.0",
+    "ssch/typo3-rector": "^2.6"
   },
   "autoload": {
     "psr-4": {
@@ -32,6 +33,10 @@
       "typo3/cms": "source",
       "typo3/cms-core": "source",
       "*": "dist"
+    },
+    "allow-plugins": {
+      "typo3/class-alias-loader": true,
+      "typo3/cms-composer-installers": true
     }
   },
   "scripts": {
